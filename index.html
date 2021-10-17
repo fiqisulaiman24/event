@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Annual Event Conference</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="lib/animate/animate.css">
+    <link rel="stylesheet" href="lib/icofont/icofont.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <style type="text/css">
+    /* Hero */
+    body,html{
+      font-family: 'Poppins',sans-serif;
+    }
+
+    .has-text-event{
+      color: #fc563b;
+    }
+
+    .has-background-event{
+      background:#fc563b;
+    }
+
+    .event__hero{
+      background-image: url('./img/hero-alt.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .hero-head, .hero-body{
+      background:rgba(0,0,0,0.7);
+    }
+
+    /* Navbar */
+    .hero.is-black .navbar-link.is-active, .hero.is-black .navbar-link:hover, .hero.is-black a.navbar-item.is-active, .hero.is-black a.navbar-item:hover {
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .navbar-item, .navbar-link, .navbar-item .button{
+      font-size: 14px;
+    }
+
+    @media screen and (max-width: 1023px){
+      .navbar-menu {
+          background-color: #fff;
+          box-shadow: 0 8px 16px rgb(10 10 10 / 10%);
+          position: fixed;
+          top: -8px;
+          width: 60%;
+          z-index: 1;
+          height: 100%;
+          animation: slideInLeft .3s;
+      }
+    }
+
+    /* Header */
+    .tag.event__tag{
+      background: #fc563b;
+      letter-spacing: 1px;
+    }
+
+    .event__headline{
+      font-size: 6rem;
+      line-height: 1;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .event__cta span{
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .event__cta a{
+      border:2px solid #fff;
+    }
+  </style>
+  <body>
+    <section class="hero is-black is-fullheight event__hero">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <header class="navbar is-spaced" style="border-bottom: 2px solid rgba(255,255,255,0.1);">
+          <div class="container">
+            <div class="navbar-brand">
+              <a href="index.html" class="navbar-item event__logo">
+                <i class="icofont-circuit icofont-2x mr-1"></i>
+                <strong class="is-size-5">Lead</strong><span class="is-size-5 has-text-weight-light">Tech</span>
+              </a>
+
+              <span class="navbar-burger has-text-white" data-target="navbarMenuHeroC">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroC" class="navbar-menu has-text-weight-semibold">
+              <div class="navbar-brand is-hidden-desktop">
+                <a href="index.html" class="navbar-item event__logo">
+                  <i class="icofont-circuit icofont-2x mr-1"></i>
+                  <strong class="is-size-5">Lead</strong><span class="is-size-5 has-text-weight-light">Tech</span>
+                </a>
+              </div>
+              <div class="navbar-end is-uppercase">
+                <a href="#about" class="navbar-item">
+                  About
+                </a>
+
+                <a href="#gallery" class="navbar-item">
+                  Gallery
+                </a>
+
+                <a href="#schedule" class="navbar-item">
+                  Schedule
+                </a>
+
+                <a href="#speakers" class="navbar-item">
+                  Speakers
+                </a>
+
+                <a href="register.html" class="navbar-item">
+                  Register
+                </a>
+
+                <a href="#location" class="navbar-item">
+                  Location
+                </a>
+
+                <span class="navbar-item">
+                  <a class="button is-dark is-inverted is-outlined is-fullwidth is-radiusless" style="border:2px solid #fff;">
+                    <span>Buy Tickets</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <span class="tag is-small event__tag has-text-white has-text-weight-medium is-uppercase is-medium mb-5 is-radiusless">
+            31 Desember 2021 / Yogyakarta
+          </span>
+          <h1 class="is-size-1-mobile is-uppercase title event__headline">
+            The Annual<br>Conference!
+          </h1>
+
+          <div class="columns is-centered is-mobile pt-5">
+            <div class="column is-2-desktop is-3-tablet">
+              <p class="is-size-1-desktop is-size-1-tablet is-size-2-mobile title has-text-weight-light">
+                90
+              </p>
+              <p class="subtitle heading has-text-weight-semibold">
+                Days
+              </p>
+            </div>
+
+            <div class="column is-2-desktop is-3-tablet">
+              <p class="is-size-1-desktop is-size-1-tablet is-size-2-mobile title has-text-weight-light">
+                54
+              </p>
+              <p class="subtitle heading has-text-weight-semibold">
+                Hour
+              </p>
+            </div>
+
+            <div class="column is-2-desktop is-3-tablet">
+              <p class="is-size-1-desktop is-size-1-tablet is-size-2-mobile title has-text-weight-light">
+                32
+              </p>
+              <p class="subtitle heading has-text-weight-semibold">
+                Minute
+              </p>
+            </div>
+
+            <div class="column is-2-desktop is-3-tablet">
+              <p class="is-size-1-desktop is-size-1-tablet is-size-2-mobile title has-text-weight-light">
+                20
+              </p>
+              <p class="subtitle heading has-text-weight-semibold">
+                Second
+              </p>
+            </div>
+          </div>
+
+          <div class="buttons is-centered event__cta pt-5">
+            <a class="button is-dark is-inverted is-outlined is-rounded is-uppercase mr-3">
+              <span class="has-text-weight-medium event__cta__primary">Register Now</span>
+            </a>
+            <a class="button is-dark is-inverted is-outlined is-rounded is-uppercase ml-3">
+              <span class="has-text-weight-medium event__cta__second">Check Schedule</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section mt-6 mb-6">
+      <div class="container has-text-centered">
+        <h1 class="is-size-3-desktop is-size-3-mobile is-size-3-tablet title is-uppercase has-text-black-bis has-text-weight-bold">
+          About Event
+        </h1>
+        <p class="is-size-6-desktop is-size-6-tablet mt-2 is-size-6-mobile subtitle is-family-secondary" style="line-height: 1.5;">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum<br class="is-hidden-mobile">has been the industry's standard dummy textever since the 1500s when an unknown<br class="is-hidden-mobile">printer took a galley of type.
+        </p>
+
+        <div class="columns is-multiline mt-6 pt-6">
+          <div class="column is-3 mb-3">
+            <div class="content">
+              <i class="icofont-globe is-size-1-desktop is-size-2-tablet is-size-2-mobile has-text-event"></i>
+              <h3 class="is-size-6-desktop is-size-6-tablet is-size-6-mobile title is-uppercase has-text-weight-bold has-text-black-bis is-family-secondary mt-3">
+                Secret of Success
+              </h3>
+              <p class="is-size-7-desktop is-size-7-tablet is-size-7-mobile subtitle" style="line-height: 1.5;">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+              </p>
+            </div>
+          </div>
+          <div class="column is-3 mb-3">
+            <div class="content">
+              <i class="icofont-cart-alt is-size-1-desktop is-size-2-tablet is-size-2-mobile has-text-event"></i>
+              <h3 class="is-size-6-desktop is-size-6-tablet is-size-6-mobile title is-uppercase has-text-weight-bold has-text-black-bis is-family-secondary mt-3">
+                Make Ideas Happen
+              </h3>
+              <p class="is-size-7-desktop is-size-7-tablet is-size-7-mobile subtitle" style="line-height: 1.5;">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+              </p>
+            </div>
+          </div>
+          <div class="column is-3 mb-3">
+            <div class="content">
+              <i class="icofont-tick-boxed is-size-1-desktop is-size-2-tablet is-size-2-tablet is-size-2-mobile has-text-event"></i>
+              <h3 class="is-size-6-desktop is-size-6-tablet is-size-6-mobile title is-uppercase has-text-weight-bold has-text-black-bis is-family-secondary mt-3">
+                Strengthen Your Skills
+              </h3>
+              <p class="is-size-7-desktop is-size-7-tablet is-size-7-mobile subtitle" style="line-height: 1.5;">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+              </p>
+            </div>
+          </div>
+          <div class="column is-3 mb-3">
+            <div class="content">
+              <i class="icofont-envelope-open is-size-1-desktop is-size-2-tablet is-size-2-tablet is-size-2-mobile has-text-event"></i>
+              <h3 class="is-size-6-desktop is-size-6-tablet is-size-6-mobile title is-uppercase has-text-weight-bold has-text-black-bis is-family-secondary mt-3">
+                Personal Integrity
+              </h3>
+              <p class="is-size-7-desktop is-size-7-tablet is-size-7-mobile subtitle" style="line-height: 1.5;">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <section class="section has-background-light">
+      <div class="container">
+        <div class="box is-radiusless p-0 mt-5 mb-5">
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-5">
+              <figure class="image is-square">
+                <img src="img/gallery03.jpg">
+              </figure>
+            </div>
+            <div class="column is-6 is-flex is-align-items-center">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container"></div>
+    </section>
+    <script type="text/javascript" src="lib/main.js"></script>
+  </body>
+</html>
